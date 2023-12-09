@@ -1,0 +1,7 @@
+SELECT imie, nazwisko FROM osoby WHERE pozycja_id = 4
+
+SELECT zespol,punkty,grupa FROM liga O
+
+SELECT zawodnik.id,zawodnik.nazwisko,pozycja.nazwa FROM zawodnik,pozycja WHERE zawodnik.pozycja_id = pozycja.id AND zawodnik.id = 3 OR zawodnik.id = 5
+
+DELETE FROM rozgrywka
